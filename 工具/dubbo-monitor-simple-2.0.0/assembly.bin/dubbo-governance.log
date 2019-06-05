@@ -1,0 +1,2 @@
+2019-06-05 08:55:30,461 [main] INFO  ? (?:?) - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2019-06-05 08:55:30,516 [main] INFO  com.alibaba.dubbo.container.Main (Main.java:61) -  [DUBBO] Use container type([log4j, spring, registry, jetty-monitor]) to run dubbo serivce., dubbo version: 2.6.0, current host: 127.0.0.1
