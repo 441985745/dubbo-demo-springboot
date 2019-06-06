@@ -29,9 +29,9 @@ public class UserServiceStub implements UserService {
      */
     @Override
     public List<UserAddress> getUserAddressList(String userId) {
-
+        System.out.println("这是本地存根");
         if(!StringUtils.isEmpty(userId)){
-            System.out.println("这是本地存根");
+
             return userService.getUserAddressList(userId);
         }
 
