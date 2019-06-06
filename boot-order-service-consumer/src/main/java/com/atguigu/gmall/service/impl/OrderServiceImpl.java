@@ -26,7 +26,7 @@ public class OrderServiceImpl implements OrderService{
 	 *     )
 	 *
 	 */
-	@Reference(version = "2.0.0") //帮我们远程引用服务,参数可以设置版本,重试次数,超时时间等
+	@Reference(version = "2.0.0",stub = "com.atguigu.gmall.service.impl.UserServiceStub") //帮我们远程引用服务,参数可以设置版本,重试次数,超时时间等
 	UserService userService;
 	public List<UserAddress> initOrder(String userId) {
 		// TODO Auto-generated method stub
